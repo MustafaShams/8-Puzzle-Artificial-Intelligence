@@ -13,7 +13,7 @@ You should see a message that asks for the type of puzzle you would like to answ
 
 After you type '1' or '2' and press ENTER the next task will be different but if you did not input '1' or '2' you will see a message that says "That is not a valid choice! Please re-enter your choice: " and you will have to type a new input agaian and again UNTIL you type '1' or '2', there can be spacing before or after but nothing else.
 
-![Intro](./images/Intro.png)
+![Intro](./images/Intro.pdf.png)
 
 If you typed '1' you should see the following display:
 
@@ -40,9 +40,9 @@ Enter '1' for Uniform Cost Search, '2' for A* Search with Misplaced Tiles, or '3
 
 After selecting the algorithm, an entire list of nodes from the Tree will be displayed by using Breadth-First Search. The process and end of the simulation should look somewhat like below:
 
-![Tree Creation](./images/Edge_Path.png)
+![Tree Creation](./images/Edge_Path.pdf.png)
 
-![Solution](./images/End_Tree.png)
+![Solution](./images/End_Tree.pdf.png)
 
 You should also see the maximum number of nodes in the queue as well as the total n umber of nodes expanded for the selected initial puzzle and algorithm.
 
