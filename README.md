@@ -40,8 +40,6 @@ Enter '1' for Uniform Cost Search, '2' for A* Search with Misplaced Tiles, or '3
 
 After selecting the algorithm, an entire list of nodes from the Tree will be displayed by using Breadth-First Search. The process and end of the simulation should look somewhat like below:
 
-![Tree Creation](./images/Edge_Path.pdf.png)
-
 ![Solution](./images/End_Tree.pdf.png)
 
 You should also see the maximum number of nodes in the queue as well as the total n umber of nodes expanded for the selected initial puzzle and algorithm.
