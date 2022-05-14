@@ -13,17 +13,17 @@ You should see a message that asks for the type of puzzle you would like to answ
 
 After you type '1' or '2' and press ENTER the next task will be different but if you did not input '1' or '2' you will see a message that says "That is not a valid choice! Please re-enter your choice: " and you will have to type a new input agaian and again UNTIL you type '1' or '2', there can be spacing before or after but nothing else.
 
-![Intro](/Intro.pdf)
+![Intro](/Intro.png)
 
 If you typed '1' you should see the following display:
 
-![Default](/Complexity.pdf)
+![Default](/Complexity.png)
 
 If you typed '2' you should see the following display:
 
-![Create (Start)](/Create_Puzzle_1.pdf)
+![Create (Start)](/Create_Puzzle_1.png)
 
-![Create (End)](/Create_Puzzle_2.pdf)
+![Create (End)](/Create_Puzzle_2.png)
 
 Also, type three numbers ranging from 0-8, make sure to space each. Once the first row is filled press ENTER to go to the next row and type three more numbers, continue this until you have three rows each containing three numbers creating a 3x3 array puzzle. Note: the index containing '0' will represent the blank square. If you type anything symbols other than 0-8, more or less than three numbers per row, and/or use the same number in more than one row you should see the message "Invalid Puzzle! Please enter your puzzle again below!" then you will again see the same message for inputting the numbers as shown above.
 
@@ -32,7 +32,7 @@ Also, type three numbers ranging from 0-8, make sure to space each. Once the fir
 
 Now that we have the initial puzzle and the goal puzzle the next step to the select the algorithm from the list shown below:
 
-![Algorithm Choice](/Algorithm.pdf)
+![Algorithm Choice](/Algorithm.png)
 
 Enter '1' for Uniform Cost Search, '2' for A* Search with Misplaced Tiles, or '3' for A* Search Using Euclidean Distance then press Enter. Again the program will verify your input and ask you to re-enter if it's not.
 
@@ -40,9 +40,9 @@ Enter '1' for Uniform Cost Search, '2' for A* Search with Misplaced Tiles, or '3
 
 After selecting the algorithm, an entire list of nodes from the Tree will be displayed by using Breadth-First Search. The process and end of the simulation should look somewhat like below:
 
-![Tree Creation](/Edge Path.pdf)
+![Tree Creation](/Edge_Path.png)
 
-![Solution](/End_Tree.pdf)
+![Solution](/End_Tree.png)
 
 You should also see the maximum number of nodes in the queue as well as the total n umber of nodes expanded for the selected initial puzzle and algorithm.
 
